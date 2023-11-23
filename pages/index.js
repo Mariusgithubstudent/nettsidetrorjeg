@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Heisann hopsann!" />
+        <Header title="Heisann hoppsann!" />
         <p className="description">
           Hva skjer a, bagera?
         </p>
