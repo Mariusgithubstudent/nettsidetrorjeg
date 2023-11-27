@@ -6,6 +6,8 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Nettside</title>
+        <link rel="icon" href="/mariusikon.ico" />
+
       </Head>
 
       <main>
