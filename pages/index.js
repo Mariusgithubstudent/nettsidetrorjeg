@@ -6,7 +6,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Nettside</title>
-        <link rel="icon" href="/mariusikon1.ico" />
+        <link rel="icon" href="/mariusikon2.ico" />
 
       </Head>
 
