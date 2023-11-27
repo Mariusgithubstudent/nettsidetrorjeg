@@ -5,14 +5,13 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Kul nettside!!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Nettside</title>
       </Head>
 
       <main>
         <Header title="Heisann hoppsann!" />
         <p className="description">
-          sjaba.
+          Jobber med saken.
         </p>
       </main>
 
