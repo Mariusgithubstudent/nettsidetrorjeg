@@ -7,7 +7,6 @@ export default function Home() {
       <Head>
         <title>Nettside</title>
         <link rel="icon" href="/mariusikon2.ico" />
-
       </Head>
 
       <main>
