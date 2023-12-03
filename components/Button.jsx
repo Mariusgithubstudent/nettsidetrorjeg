@@ -1,6 +1,7 @@
 export default function Button({ title, handleShowVideo }) {
     function handleClick() {
         console.log("Button Clicked");
+	    handleShowVideo();
     }
     return (
         <button
@@ -8,9 +9,7 @@ export default function Button({ title, handleShowVideo }) {
                 color: "red",
 
             }}
-            onClick={handleShowVideo
-
-            }
+            onClick={handleClick}
         >
             {title}
         </button >

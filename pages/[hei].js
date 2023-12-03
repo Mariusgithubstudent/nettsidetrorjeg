@@ -26,7 +26,7 @@ export default function Home() {
                 <Button title="Gratis V-Bucks!" handleShowVideo={handleShowVideo} />
 
                 {showVideo && (
-                    <VideoContainer src={"https://www.youtube.com/embed/6n3pFFPSlW4?autoplay=1"} />)
+                    <VideoContainer src={"https://www.youtube.com/embed/6n3pFFPSlW4?autoplay=1"} autoPlay />)
                 }
 
             </main>
