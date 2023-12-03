@@ -8,11 +8,11 @@ export default function Home() {
     const [showVideo, setShowVideo] = useState(false);
 
     function handleShowVideo() {
-        setShowVideo(true)
+        setShowVideo(!showVideo);
     }
 
     return (
-        <div className="container">
+        <div className="container" id="penis">
             <Head>
                 <title>Nettside</title>
                 <link rel="icon" href="/mariusikon2.ico" />
@@ -26,7 +26,7 @@ export default function Home() {
                 <Button title="Gratis V-Bucks!" handleShowVideo={handleShowVideo} />
 
                 {showVideo && (
-                    <VideoContainer src={"https://www.youtube.com/embed/6n3pFFPSlW4?autoplay=1"} autoPlay />)
+                    <VideoContainer src={"https://www.youtube.com/embed/6n3pFFPSlW4?autoplay=1&showinfo=0&controls=0&autohide=1"} autoPlay />)
                 }
 
             </main>
