@@ -21,7 +21,7 @@ export default function Home() {
             <main>
                 <Header title="Heisann hoppsann!" />
                 <p className="description">
-                    Jobber med Marius er TEIT.
+                    Jobber med saken
                 </p>
                 <Button title="Gratis V-Bucks!" handleShowVideo={handleShowVideo} />
 
